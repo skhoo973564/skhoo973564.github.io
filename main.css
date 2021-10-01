@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html body {
+    font-family: 'Poppins', 'Montserrat', 'Roboto', sans-serif;
+    background-color: #faf9f8;
+}
+
+.border {
+    border-color: #eaeaea;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#home-button {
+    width: 100%;
+    font-family: 'Poppins', 'Montserrat', 'Roboto', sans-serif;
+    font-size: 20px;
+    position: fixed;
+    background-color: #ffff;
+    padding: 5px;
+}
+
+.text {
+    padding-top: 45px;
+}
+
+.box {
+    border-radius: 5px;
+    box-shadow: 0 0.5px 5px 0.4px darkgrey;
+}
+
+.text-box {
+    background-color: #ffff;
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.right-img {
+    float: right;
+}
+
+.left-img {
+    float: left;
+}
+
+img {
+    margin: 7px;
+}
