@@ -4,13 +4,16 @@
     <title>free dumb facts</title>
     <script>
       for (i = 0; i < 1000; i++) {
-        document.createElement("p");
-        document.createElement("br");
+        let horb = document.createElement("p");
+        let hirb = document.createElement("br");
+        let body = document.getElementsByTagName("body")[0];
+        body.appendChild(horb);
+        body.appendChild(hirb);
       }
     </script>
   </head>
-  <body>
-    <h1>topic: snail sleep</h1>
+  <body></body>
+    <h1 id="hong">topic: snail sleep</h1>
     <p>please note that i suck at grammar</P>
  
     <a href='https://skhoo973564.github.io/wonders/'><button>go back to main page</button></a>
